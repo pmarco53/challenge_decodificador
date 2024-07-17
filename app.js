@@ -7,7 +7,7 @@ const cifra = {
 }
 
 function criptografar() {
-  texto = document.getElementById('texto').value
+  texto = document.getElementById('texto').value.toLowerCase()
   let textoCodigo = texto
 
   for (key in cifra) {
@@ -16,11 +16,15 @@ function criptografar() {
     }
   }
   let result = document.getElementById('saida')
+  document.getElementById('imagem').style.display = 'none'
+  let element = document.getElementById('saida')
+  element.style.margin = '10px 10px 510px 10px'
   result.innerText = textoCodigo
 }
 
 function descriptografar() {
-  texto = document.getElementById('texto').value
+  console.log('aqui')
+  texto = document.getElementById('texto').value.toLowerCase()
   let textoCodigo = texto
 
   for (key in cifra) {
@@ -29,6 +33,7 @@ function descriptografar() {
     }
   }
   let result = document.getElementById('saida')
+  document.getElementById('imagem').style.display = 'none'
   result.innerText = textoCodigo
 }
 

@@ -45,7 +45,7 @@ header {
   color: #0a3871;
   background-color: #f3f5fc;
   border: none;
-  margin: 50px;
+  margin: 30px;
 }
 
 .container__entrada__paragrafo {
@@ -54,7 +54,7 @@ header {
   font-family: 'Inter', sans-serif;
   font-size: 12px;
   font-weight: 400;
-  margin: 450px 0px 0px 0px;
+  margin: 300px 0px 0px 0px;
 }
 
 .container__entrada__botoes {
@@ -89,7 +89,7 @@ header {
 
 .container__saida {
   width: 400px;
-  height: 944px;
+  height: 844px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -100,19 +100,17 @@ header {
 }
 
 .container__saida__texto {
-  width: 336px;
-  height: 240px;
+  width: 366px;
+  height: 140px;
   color: #0a3871;
   font-family: 'Inter', sans-serif;
   font-size: 24px;
   font-weight: 400;
-  margin: 10%;
+  margin: 10px;
 }
-
 .container__saida__imagem {
   height: 500px;
 }
-
 .container__saida__mensagem {
   font-family: 'Inter', sans-serif;
   font-size: 16px;
@@ -125,9 +123,10 @@ header {
   font-size: 16px;
   border-radius: 24px;
   border: 1px solid #1875e8;
-  color: black;
-  width: 336px;
+  color: #0a3871;
+  width: 266px;
   height: 67px;
+  margin: 0 0 80px 0;
 }
 
 button {
@@ -137,6 +136,12 @@ button {
 }
 
 footer {
+  margin: 2%;
   height: 10%;
   color: black;
+}
+
+.fas fa-exclamation-circle {
+  width: 16px;
+  height: 16px;
 }
