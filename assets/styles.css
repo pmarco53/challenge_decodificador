@@ -1,3 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
   background-color: #f3f5fc;
+  flex-direction: column;
+}
+
+header {
+  width: 120px;
+  height: 10%;
+  margin: 40px 0px 0px 40px;
+}
+
+.container {
+  margin: 0 10%;
+  height: 944px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container__entrada {
+  height: 944px;
+  width: 800px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 100%;
+}
+
+.container__entrada__texto {
+  width: 680px;
+  height: 288px;
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  color: #0a3871;
+  background-color: #f3f5fc;
+  border: none;
+  margin: 50px;
+}
+
+.container__entrada__paragrafo {
+  width: 252px;
+  height: 18px;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 450px 0px 0px 0px;
+}
+
+.container__entrada__botoes {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 680px;
+  height: 67px;
+  gap: 8px;
+}
+
+.container__entrada__botoes__cripto {
+  background-color: #0a3871;
+  color: #ffffff;
+  width: 328px;
+  height: 67px;
+  border-radius: 24px;
+  padding: 24px;
+}
+
+.container__entrada__botoes__decripto {
+  background-color: #ffffff;
+  color: #0a3871;
+  width: 328px;
+  height: 67px;
+  border-radius: 24px;
+}
+
+.container__saida {
+  width: 400px;
+  height: 944px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: space-between;
+  background-color: #ffffff;
+  border-radius: 32px;
+  margin: 0px 500px 0px 0px;
+}
+
+.container__saida__texto {
+  width: 336px;
+  height: 240px;
+  color: #0a3871;
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 10%;
+}
+
+.container__saida__imagem {
+  height: 500px;
+}
+
+.container__saida__mensagem {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.container__saida__botao {
+  font-size: 16px;
+  border-radius: 24px;
+  border: 1px solid #1875e8;
+  color: black;
+  width: 336px;
+  height: 67px;
+}
+
+button {
+  font-size: 16px;
+  border-radius: 24px;
+  color: #0a3871;
+}
+
+footer {
+  height: 10%;
+  color: black;
 }

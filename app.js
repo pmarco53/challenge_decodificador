@@ -1,0 +1,46 @@
+const cifra = {
+  e: 'enter',
+  i: 'imes',
+  a: 'ai',
+  o: 'ober',
+  u: 'ufat',
+}
+
+function criptografar() {
+  texto = document.getElementById('texto').value
+  let textoCodigo = texto
+
+  for (key in cifra) {
+    if (texto.includes(key)) {
+      textoCodigo = textoCodigo.replaceAll(key, cifra[key])
+    }
+  }
+  let result = document.getElementById('saida')
+  result.innerText = textoCodigo
+}
+
+function descriptografar() {
+  texto = document.getElementById('texto').value
+  let textoCodigo = texto
+
+  for (key in cifra) {
+    if (texto.includes(cifra[key])) {
+      textoCodigo = textoCodigo.replaceAll(cifra[key], key)
+    }
+  }
+  let result = document.getElementById('saida')
+  result.innerText = textoCodigo
+}
+
+function copiarConteudo() {
+  let newClip = document.getElementById('saida').innerText
+  alert('texto foi copiado para área de transferencia')
+  navigator.clipboard.writeText(newClip).then(
+    () => {
+      console.log('ok')
+    },
+    () => {
+      console.log('erro')
+    }
+  )
+}
