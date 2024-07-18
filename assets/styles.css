@@ -14,13 +14,19 @@ body {
 }
 
 header {
+  width: 180px;
+  height: 92px;
+  margin: 0px 0px 0px 40px;
+}
+
+.img__logo {
   width: 120px;
-  height: 10%;
-  margin: 40px 0px 0px 40px;
+  height: 48px;
+  margin-top: 40px;
+  margin-left: 40px;
 }
 
 .container {
-  margin: 0 10%;
   height: 944px;
   display: flex;
   align-items: center;
@@ -28,24 +34,26 @@ header {
 }
 
 .container__entrada {
-  height: 944px;
-  width: 800px;
+  height: 856px;
+  width: 980px;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  height: 100%;
+  margin: 0px 0px 50px 0px;
 }
 
 .container__entrada__texto {
   width: 680px;
-  height: 288px;
+  height: 48px;
   font-family: 'Inter', sans-serif;
   font-size: 32px;
   font-weight: 400;
   color: #0a3871;
   background-color: #f3f5fc;
   border: none;
-  margin: 30px;
+  margin-top: 80px;
+  margin-left: 240px;
+  margin-bottom: 481px;
 }
 
 .container__entrada__paragrafo {
@@ -54,7 +62,7 @@ header {
   font-family: 'Inter', sans-serif;
   font-size: 12px;
   font-weight: 400;
-  margin: 300px 0px 0px 0px;
+  margin: 0px 0px 8px 240px;
 }
 
 .container__entrada__botoes {
@@ -67,7 +75,7 @@ header {
   justify-content: space-between;
   width: 680px;
   height: 67px;
-  gap: 8px;
+  margin-left: 240px;
 }
 
 .container__entrada__botoes__cripto {
@@ -89,14 +97,14 @@ header {
 
 .container__saida {
   width: 400px;
-  height: 844px;
+  height: 784px;
   display: flex;
   align-items: center;
   flex-direction: column;
   align-content: space-between;
   background-color: #ffffff;
   border-radius: 32px;
-  margin: 0px 500px 0px 0px;
+  margin: 40px 40px 40px 0px;
 }
 
 .container__saida__texto {
@@ -106,17 +114,11 @@ header {
   font-family: 'Inter', sans-serif;
   font-size: 24px;
   font-weight: 400;
-  margin: 10px;
+  margin-top: 150px;
 }
 .container__saida__imagem {
-  height: 500px;
-}
-.container__saida__mensagem {
-  font-family: 'Inter', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  text-align: justify;
-  text-justify: inter-word;
+  height: 350px;
+  width: 236px;
 }
 
 .container__saida__botao {
@@ -126,7 +128,7 @@ header {
   color: #0a3871;
   width: 266px;
   height: 67px;
-  margin: 0 0 80px 0;
+  margin: 0 0 0px 0;
 }
 
 button {

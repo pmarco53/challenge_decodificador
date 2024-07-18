@@ -18,7 +18,7 @@ function criptografar() {
   let result = document.getElementById('saida')
   document.getElementById('imagem').style.display = 'none'
   let element = document.getElementById('saida')
-  element.style.margin = '10px 10px 510px 10px'
+  element.style.margin = '150px 10px 350px 10px'
   result.innerText = textoCodigo
 }
 
